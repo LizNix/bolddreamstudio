@@ -9,7 +9,7 @@
 
 </head>
 <body>
-	<header>
+	<header role=Banner>
 		<div class="container">
 			<h2 class="branding">Bold<span>Dream</span>Stuido</h2>
 			<h1>Web Design and Development</h1>
@@ -18,12 +18,12 @@
 	<main class="container">
 		<section class="introduction">
 			<h2>Hello, my name is Liz and I build websites.</h2>
-			<p>My bold dream is to make a living doing what I love the way I love to do it -- building websites that are helpful, effective, fast, accessible and, above all, delightful.</p>
+			<p>My bold dream is to make a living doing what I love the way I love to do it &emdash; building websites that are helpful, effective, fast, accessible and, above all, delightful.</p>
 			<p>What's your bold dream? Can I help you make it a reality?</p>
-			<a href="#connect" class="btn" role="button">Connect with me</a>
+			<a href="#connect" class="btn">Connect with me</a>
 		</section>
 		<section class="services">
-			<h2>Services</h2>
+			<h1>Services</h1>
 			<ul>
 				<li>WordPress Development</li>
 				<li>Shopify Theming &amp; Configuration</li>
@@ -35,42 +35,43 @@
 		</section>
 		<section class="skills">
 			<h1>My Skills</h1>
-			<div class="key">
-				<h2>Competency Key:</h2>
-				<span class="advanced">Advanced</span>
-				<span class="intermediate">Intermediate</span>
-				<span class="novice">Novice</span>
+			<h2>Competency Key:</h2>
+			<div class="key" role="group">
+				
+				<span role="listitem" class="advanced" id="Competency-Level-Advanced">Advanced</span>
+				<span role="listitem" class="intermediate" id="Competency-Level-Intermediate">Intermediate</span>
+				<span role="listitem" class="novice" id="Competency-Lebel-Novice">Novice</span>
 			</div>
 			<h2>Front End Web</h2>
 			<h3>Development Languages</h3>
 			<ul>
-				<li class="advanced">HTML5</li>
-				<li class="advanced">CSS3 / SASS / Compass</li>
-				<li class="intermediate">Javascript</li>
-				<li class="intermediate">PHP</li>
+				<li class="advanced" aria-describedby="Competency-Level-Advanced">HTML5</li>
+				<li class="advanced" aria-describedby="Competency-Level-Advanced">CSS3 / SASS / Compass</li>
+				<li class="advanced" aria-describedby="Competency-Level-Intermediate">Javascript</li>
+				<li class="advanced" aria-describedby="Competency-Level-Intermediate">PHP</li>
 			</ul>
 			<h3>Platforms &amp; Frameworks</h3>
 			<ul>
-				<li class="advanced">WordPress</li>
-				<li class="advanced">Bootstrap</li>
-				<li class="intermediate">Shopify</li>
-				<li class="intermediate">Jquery</li>
-				<li class="novice">Drupal</li>
+				<li class="advanced" aria-describedby="Competency-Level-Advanced">WordPress</li>
+				<li class="advanced" aria-describedby="Competency-Level-Advanced">Bootstrap</li>
+				<li class="advanced" aria-describedby="Competency-Level-Intermediate">Shopify</li>
+				<li class="advanced" aria-describedby="Competency-Level-Intermediate">Jquery</li>
+				<li class="advanced" aria-describedby="Competency-Level-Novice">Drupal</li>
 			</ul>
-			<h3>Best Practices</h3>
+			<h2>Best Practices</h2>
 			<ul>
-				<li class="advanced">SEO</li>
-				<li class="intermediate">Web Design</li>
-				<li class="intermediate">Performance</li>
-				<li class="intermediate">User Experience</li>
-				<li class="intermediate">Email Marketing</li>
-				<li class="intermediate">Version Control (Git)</li>
+				<li class="advanced" aria-describedby="Competency-Level-Advanced">SEO</li>
+				<li class="advanced" aria-describedby="Competency-Level-Intermediate">Web Design</li>
+				<li class="advanced" aria-describedby="Competency-Level-Intermediate">Performance</li>
+				<li class="advanced" aria-describedby="Competency-Level-Intermediate">User Experience</li>
+				<li class="advanced" aria-describedby="Competency-Level-Intermediate">Email Marketing</li>
+				<li class="advanced" aria-describedby="Competency-Level-Intermediate">Version Control (Git)</li>
 			</ul>
 			
 			<h2>Server-Side (LAMP Stack)</h2>
 			<ul>
-				<li class="intermediate">WordPress Programming</li>
-				<li class="novice">Linux System Administration</li>
+				<li class="advanced" aria-describedby="Competency-Level-Intermediate">WordPress Programming</li>
+				<li class="advanced" aria-describedby="Competency-Level-Novice">Linux System Administration</li>
 			</ul>
 		</section>
 		<section class="works">
@@ -133,15 +134,18 @@
 			<div class="connect-email">
 				<h2>Interested in working together? Awesome! Email me here.</h2>
 				<form action="https://formspree.io/liz@liznix.com" method="POST">
-				    <input type="text" name="name">
-				    <input type="email" name="_replyto">
-				    <textarea name="message" placeholder="Your message"></textarea>
-				    <button type="submit">Send</button>
+					<p><label for="name">Name: </label>
+				    <input type="text" name="name"></p>
+				    <p><label for="_replyto">Email: </label>
+				    <input type="email" name="_replyto"></p>
+				    <p><label for="message">Your Message</label>
+				    <textarea name="message" placeholder="Your message"></textarea></p>
+				    <button type="submit" name="submit">Send</button>
 				</form>	
 		</section>
 	</main>
 	<footer>
-		<div class="container">&copy;2016 Liz Nix</div>
+		<div class="container" role="contentinfo">&copy;2016 Liz Nix</div>
 	</footer>
 </body>
 </html>
