@@ -1,0 +1,115 @@
+/*Styles for Bold Dream Studio*/
+/*reset*/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+
+   Modified by Liz Nix
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, tt, var,
+b, u, i, center,
+dl, dt, dd,
+fieldset, form, label, legend, ol, ul,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* customization */
+/*RAW ELEMENT OVERRIDES*/
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 1.618; }
+
+h1, h2, h3 {
+  margin-top: .382em;
+  margin-bottom: .25em; }
+
+h1, h3 {
+  font-family: "Georgia", serif; }
+
+h1 {
+  font-size: 2rem; }
+
+h2 {
+  font-weight: 700;
+  font-size: 1.618rem; }
+
+h3 {
+  font-size: 1.25rem; }
+
+P {
+  margin-bottom: 1em; }
+
+ol {
+  list-style: number; }
+
+ul {
+  list-style: disk; }
+
+li {
+  margin: 0 1.618em .618em;
+  padding: 0;
+  line-height: 1.618; }
+
+section {
+  margin-bottom: 2rem; }
+
+header {
+  padding-top: 3em; }
+
+/* single class modifyier overrides */
+.container {
+  max-width: 50em;
+  margin: 0 auto; }
+
+.intro {
+  padding: 3em 2em; }
+
+.advanced {
+  font-weight: 600;
+  color: #000; }
+
+.intermediate {
+  color: #222; }
+
+.novice {
+  color: #999; }
+
+/* Second Level Modified */
+h2.branding span {
+  font-weight: 500; }
+
+/*# sourceMappingURL=style.css.map */
