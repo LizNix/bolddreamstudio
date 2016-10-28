@@ -1,11 +1,31 @@
-/*Styles for Bold Dream Studio*/
+/* ------------------------------
+
+   Styles for Bold Dream Studio
+
+ ------------------------------ */
+
+/* --------  Variables  -------- */
+
+$container-width: 63em;
+
+/* Break Points */
+$sm-point: 420px; // lowest vw point of sm classes
+$md-point: 768px; // lowest vw for md classes
 
 
 $font-stack-body :  sans-serif;
 $font-stack-heading: 'Georgia', serif;
 
+/*colors*/
 
-/*reset*/
+$cool-white: #f9fafc;
+$warm-black: #292222;
+
+
+
+/* --------  Reset  -------- */
+
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -32,6 +52,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
+	box-sizing:border-box;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -54,16 +75,20 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-/* customization */
+
+/* --------  customization  -------- */
 
 /*RAW ELEMENT OVERRIDES*/
+
 body{
 	font-family: $font-stack-body;
 	font-size:16px;
 	line-height:1.618;
+	background:$cool-white;
+	color: $warm-black;
 }
 h1, h2, h3{
-	margin-top:.382em;
+	margin-top:1em;
 	margin-bottom:.25em;
 }
 h1,  h3{
@@ -98,32 +123,87 @@ li{
 	line-height:1.618;
 }
 section{
-	margin-bottom:2rem;
+	margin-bottom:2.336rem;
+	padding: 0 1.168em;
+
 }
 header{
-	padding-top:3em;
+	padding:3em 1.618em;
 }
 /* single class modifyier overrides */
 
 .container{
-	max-width:50em;
+	max-width:$container-width;
 	margin:0 auto;
 }
 .intro{
-	padding:3em 2em;
+	padding:3em 1.309em 5em;
+	//border:1px solid lighten($warm-black, 50);
+	background: darken($cool-white, 5);
 }
 .advanced{
 	font-weight:600;
 	color:#000;
+	font-size:1.309em;
 }
 .intermediate{
-	color:#222;
+	font-size:1.155em;	
 }
 .novice{
-	color: #999;
+	color: #4c4c4c;
 }
 
-/* Second Level Modified */
+/* Utilities */
+
+
+/*Mobile First Flex-Gird*/
+
+
+.grid{
+	display:flex;
+	align-items:center;
+}
+.grid.xs-full, .grid.sm-full ,.grid.md-full{
+	display:block;
+}
+.col{
+	flex:1;
+}
+
+/* Second Level Modified and widgets */
+
 h2.branding span{
 	font-weight:500;
+}
+
+.intro{
+	p{
+		font-size:1.15rem;
+		padding-right:.618em;
+	}
+}
+/* -------- Media Queries -------- */
+
+@media (min-width: $sm-point){
+	.intro{
+		padding-left:3.236em;
+		padding-right: 1.618em;
+	}		
+	.grid.xs-full{
+		display:flex;
+	}
+	.visible-xs{ 
+	//hidden sm-down
+		display:none;
+	}
+}	
+
+@media (min-width: $md-point){
+	.grid.sm-full{
+		display:flex;
+	}
+	//hidden md-down
+	.sm-visible{
+		display:none;
+	}
 }
