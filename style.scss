@@ -10,7 +10,7 @@ $container-width: 63em;
 
 /* Break Points */
 $sm-point: 420px; // lowest vw point of sm classes
-$md-point: 768px; // lowest vw for md classes
+$md-point: 769px; // lowest vw for md classes
 
 
 $font-stack-body :  sans-serif;
@@ -108,7 +108,7 @@ h3{
 	font-size: 1.25rem;
 }
 
-P{
+p{
 	margin-bottom:1em;
 }
 ol{
@@ -129,6 +129,23 @@ section{
 }
 header{
 	padding:3em 1.618em;
+}
+
+label{
+	display: block;
+	font-size:.9em;
+	margin-left: 1.618em;
+	font-weight: bold;
+}
+input, textarea{
+	margin-top:3px;
+	padding:.618em .309em;
+}
+footer{
+	background:$warm-black;
+	color:$cool-white;
+	padding:1em;
+	font-size: .9em;
 }
 /* single class modifyier overrides */
 
@@ -158,7 +175,6 @@ header{
 
 /*Mobile First Flex-Gird*/
 
-
 .grid{
 	display:flex;
 	align-items:center;
@@ -169,8 +185,20 @@ header{
 .col{
 	flex:1;
 }
-
-/* Second Level Modified and widgets */
+.col-1-3{
+	width:32%;
+}
+.col-3-4{
+	width: 65%;
+}
+/*other utility classes*/
+.xs-hidden{
+	display:none
+}
+.sm-hidden{
+	display:none;
+}
+/* Modules and More Specific styles */
 
 h2.branding span{
 	font-weight:500;
@@ -182,6 +210,38 @@ h2.branding span{
 		padding-right:.618em;
 	}
 }
+.connect{
+	.connect-social{
+		padding:1.618em;
+		&:after{
+			content:'';
+			display: block;
+			clear: both;
+		}
+		li{
+			float:left;
+			margin-right:1.618em;
+			list-style: none;
+			padding-left: 0;			
+		}
+	}
+	input, textarea{
+		margin-left: 1.618em;
+		width:calc(100% - 1.618em);
+	}
+	button{
+		margin-left: 1.618em;
+	}
+	.connect-email{
+		border-top:1px solid darken($cool-white , 10);
+		padding-top:1.618em;
+		h2{
+			padding-bottom:1em;
+		}
+	}
+}	
+
+
 /* -------- Media Queries -------- */
 
 @media (min-width: $sm-point){
@@ -192,9 +252,13 @@ h2.branding span{
 	.grid.xs-full{
 		display:flex;
 	}
-	.visible-xs{ 
-	//hidden sm-down
+	.xs-visible{ 
+	//hidden sm-up
 		display:none;
+	}
+	.xs-hidden{
+		//show sm-up
+		display: block;
 	}
 }	
 
@@ -202,8 +266,14 @@ h2.branding span{
 	.grid.sm-full{
 		display:flex;
 	}
-	//hidden md-down
+	//hidden md-up
 	.sm-visible{
 		display:none;
 	}
+	.sm-hidden{
+		//show md-up
+		display:block;
+	}
+
+	
 }
