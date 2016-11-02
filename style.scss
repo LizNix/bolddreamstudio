@@ -12,7 +12,19 @@ $container-width: 63em;
 $sm-point: 420px; // lowest vw point of sm classes
 $md-point: 769px; // lowest vw for md classes
 
+/* Modular Scale */
+$ratio: 1.618;
+$ratio-down: 1/$ratio;
 
+/*Adding Units*/
+$font-up: $ratio * 1rem;
+$font-down: $ratio-down * 1rem;
+
+$gutter: $ratio * 1em;
+$gutter-sm: $ratio-down *1em;
+
+
+/*fonts*/
 $font-stack-body :  sans-serif;
 $font-stack-heading: 'Georgia', serif;
 
@@ -21,6 +33,20 @@ $font-stack-heading: 'Georgia', serif;
 $cool-white: #f9fafc;
 $warm-black: #292222;
 
+/* Crayon box like color names */
+$dark-blue:	 #06025b;
+$mid-blue:   #0011a4;
+$light-blue: #0064fa;
+$lavendar:	 #ab77af;
+$dusk:		 #e2a369;
+
+/* Map to CSS Utility color names */
+$primary: 	 $dark-blue;
+$secondary:  $mid-blue;
+
+$accent1:	 $light-blue;
+$accent2:	 $lavendar;
+$accent3:	 $dusk;
 
 
 /* --------  Reset  -------- */
@@ -54,6 +80,9 @@ time, mark, audio, video {
 	vertical-align: baseline;
 	box-sizing:border-box;
 }
+*, *:before, *:after{
+	box-sizing:inherit;
+}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -78,12 +107,12 @@ table {
 
 /* --------  customization  -------- */
 
-/*RAW ELEMENT OVERRIDES*/
+/* Globals */
 
 body{
 	font-family: $font-stack-body;
 	font-size:16px;
-	line-height:1.618;
+	line-height:$ratio;
 	background:$cool-white;
 	color: $warm-black;
 }
@@ -101,7 +130,7 @@ h1{
 }
 h2{
 	font-weight:700;
-	font-size:1.618rem;
+	font-size:$font-up;
 }
 
 h3{
@@ -118,28 +147,28 @@ ul{
 	list-style:disk;
 }
 li{
-	margin:0 1.618em .618em;
+	margin:0 $gutter $gutter-sm;
 	padding:0;
-	line-height:1.618;
+	line-height:$ratio;
 }
 section{
-	margin-bottom:2.336rem;
-	padding: 0 1.168em;
+	margin-bottom:2 * $gutter;
+	padding: 0 $gutter;
 
 }
 header{
-	padding:3em 1.618em;
+	padding:(2.5* $gutter) $gutter;
 }
 
 label{
 	display: block;
 	font-size:.9em;
-	margin-left: 1.618em;
+	margin-left: $gutter;
 	font-weight: bold;
 }
 input, textarea{
 	margin-top:3px;
-	padding:.618em .309em;
+	padding:$gutter-sm ($gutter / 2);
 }
 footer{
 	background:$warm-black;
@@ -147,27 +176,11 @@ footer{
 	padding:1em;
 	font-size: .9em;
 }
-/* single class modifyier overrides */
+
 
 .container{
 	max-width:$container-width;
 	margin:0 auto;
-}
-.intro{
-	padding:3em 1.309em 5em;
-	//border:1px solid lighten($warm-black, 50);
-	background: darken($cool-white, 5);
-}
-.advanced{
-	font-weight:600;
-	color:#000;
-	font-size:1.309em;
-}
-.intermediate{
-	font-size:1.155em;	
-}
-.novice{
-	color: #4c4c4c;
 }
 
 /* Utilities */
@@ -198,21 +211,33 @@ footer{
 .sm-hidden{
 	display:none;
 }
-/* Modules and More Specific styles */
+/* Modules and More  */
 
+.intro{
+	padding:(2.5 * $gutter) (.8 * $gutter) (3 * $gutter);
+	//border:1px solid lighten($warm-black, 50);
+	background: darken($cool-white, 5);
+	p{
+		font-size:1.15rem;
+		padding-right:$gutter-sm;
+	}	
+}
+.advanced{
+	font-weight:600;
+	color:#000;
+}
+.intermediate{
+}
+.novice{
+	color: lighten($warm-black, 50);
+}
 h2.branding span{
 	font-weight:500;
 }
 
-.intro{
-	p{
-		font-size:1.15rem;
-		padding-right:.618em;
-	}
-}
 .connect{
 	.connect-social{
-		padding:1.618em;
+		padding:$gutter;
 		&:after{
 			content:'';
 			display: block;
@@ -220,21 +245,21 @@ h2.branding span{
 		}
 		li{
 			float:left;
-			margin-right:1.618em;
+			margin-right:f;
 			list-style: none;
 			padding-left: 0;			
 		}
 	}
 	input, textarea{
-		margin-left: 1.618em;
-		width:calc(100% - 1.618em);
+		margin-left: $gutter;
+		width:calc(100% - #{$gutter});
 	}
 	button{
-		margin-left: 1.618em;
+		margin-left:$gutter;
 	}
 	.connect-email{
 		border-top:1px solid darken($cool-white , 10);
-		padding-top:1.618em;
+		padding-top:$gutter;
 		h2{
 			padding-bottom:1em;
 		}
@@ -246,8 +271,8 @@ h2.branding span{
 
 @media (min-width: $sm-point){
 	.intro{
-		padding-left:3.236em;
-		padding-right: 1.618em;
+		padding-left:(2 * $gutter);
+		padding-right: $gutter;
 	}		
 	.grid.xs-full{
 		display:flex;
