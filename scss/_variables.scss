@@ -1,0 +1,43 @@
+/* --------  Variables  -------- */
+
+$container-width: 63em;
+
+/* Break Points */
+$sm-point: 420px; // lowest vw point of sm classes
+$md-point: 769px; // lowest vw for md classes
+
+/* Modular Scale */
+$ratio: 1.618;
+$ratio-down: 1/$ratio;
+
+/*Adding Units*/
+$font-up: $ratio * 1rem;
+$font-down: $ratio-down * 1rem;
+
+$gutter: $ratio * 1em;
+$gutter-sm: $ratio-down *1em;
+
+
+/*fonts*/
+$font-stack-body :  sans-serif;
+$font-stack-heading: 'Georgia', serif;
+
+/*colors*/
+
+$cool-white: #f9fafc;
+$warm-black: #292222;
+
+/* Crayon box like color names */
+$space:	 	#06025b;
+$ocean:  	#0011a4;
+$wave: 		#0064fa;
+$lavendar:	#ab77af;
+$dusk:		#e2a369;
+
+/* Map to CSS Utility color names */
+$primary: 	 $space;
+$secondary:  $ocean;
+
+$accent1:	 $wave;
+$accent2:	 $lavendar;
+$accent3:	 $dusk;

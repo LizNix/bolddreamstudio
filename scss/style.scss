@@ -1,0 +1,283 @@
+/* ------------------------------
+
+   Styles for Bold Dream Studio
+
+ ------------------------------ */
+
+@import "variables";
+@import "reset";
+
+/* --------  customization  -------- */
+
+/* Globals */
+
+body{
+	font-family: $font-stack-body;
+	font-size:16px;
+	line-height:$ratio;
+	background:$cool-white;
+	color: $warm-black;
+}
+h1, h2, h3{
+	margin-top:1em;
+	margin-bottom:.25em;
+}
+h1,  h3{
+	font-family: $font-stack-heading;
+}
+
+h1{
+	font-size:2rem;
+
+}
+h2{
+	font-weight:700;
+	font-size:$font-up;
+}
+
+h3{
+	font-size: 1.25rem;
+}
+
+p{
+	margin-bottom:1em;
+}
+ol{
+	list-style: number;
+}
+ul{
+	list-style:disk;
+}
+li{
+	margin:0 $gutter $gutter-sm;
+	padding:0;
+	line-height:$ratio;
+}
+a{
+	color:$secondary;
+	&:hover{
+		color:$accent3;
+	}
+}
+section{
+	margin-bottom:2 * $gutter;
+	padding: 0 $gutter;
+
+}
+header{
+	padding: $gutter;
+}
+
+label{
+	display: block;
+	font-size:.9em;
+	margin-left: $gutter;
+	font-weight: bold;
+}
+input, textarea{
+	margin-top:3px;
+	padding:$gutter-sm ($gutter / 2);
+}
+footer{
+	background:$warm-black;
+	color:$cool-white;
+	padding:1em;
+	font-size: .9em;
+}
+
+
+.container{
+	max-width:$container-width;
+	margin:0 auto;
+}
+
+.btn, button{
+	display: inline-block;
+	min-width: 3em * $ratio;
+	color:lighten($cool-white,4);
+	background:$primary;
+	text-decoration: none;
+	text-align: center;
+	padding: $gutter/2 $gutter;
+	border-radius:$gutter-sm;
+	border: 1px solid $secondary;
+	&:hover{
+
+	background:$cool-white;
+	color:$secondary;
+		
+	}
+}
+
+/* Utilities */
+
+
+/*Mobile First Flex-Gird*/
+
+.grid{
+	display:flex;
+	align-items:center;
+}
+.grid.xs-full, .grid.sm-full ,.grid.md-full{
+	display:block;
+}
+.col{
+	flex:1;
+}
+.col-1-3{
+	width:32%;
+}
+.col-3-4{
+	width: 65%;
+}
+/*other utility classes*/
+.xs-hidden{
+	display:none
+}
+.sm-hidden{
+	display:none;
+}
+/* Modules and More  */
+
+/* banner */
+h2.branding{
+	color:$primary;
+	margin-bottom:0;
+	span{
+		font-weight:500;
+		color:$secondary;
+	}
+}
+header h1{
+	font-style: italic;
+	margin-top:$gutter-sm;
+}
+
+/* intro */
+.intro{
+	padding:(1.5 * $gutter) (.8 * $gutter) (3 * $gutter);
+	color:$primary;
+	border-left: 4px solid $primary;
+	//border-top: 1px solid $primary;
+	border-bottom:2px solid $accent2;
+	border-radius:$gutter 0;
+	border-bottom-right-radius: 16*$gutter 8*$gutter;
+	background: desaturate(lighten($accent1, 45),20);
+	p{
+		font-size:1.25rem;
+		padding-right:$gutter;
+	}
+	a{
+		font-size: $font-up;
+	}
+}
+
+/* Skills */
+.skills{
+		border-top:4px solid $accent3;
+		box-shadow:0px -1px 0px $accent2;
+	.key{
+		margin: $gutter-sm;
+		padding:$gutter $gutter-sm;
+		background:#fff;
+		border-bottom-right-radius: 6*$gutter 3*$gutter;
+		box-shadow: -3px 3px 2px desaturate(lighten($accent1, 43),20);
+
+		h2{
+			font-size:1rem;
+			padding-top:0;
+			padding:$gutter-sm;
+			font-weight: normal;
+		}
+		p, h2{
+			padding-left:$gutter;
+			padding-right:$gutter;
+		}
+	}
+}
+.advanced{
+	font-weight:600;
+	color:$primary;
+}
+.intermediate{
+	color:$secondary;
+}
+.novice{
+	color: $accent2;
+}
+
+/*connect*/
+.connect{
+	.connect-social{
+		padding:$gutter;
+		&:after{
+			content:'';
+			display: block;
+			clear: both;
+		}
+		li{
+			float:left;
+			margin-right:f;
+			list-style: none;
+			padding-left: 0;			
+		}
+	}
+	input, textarea{
+		margin-left: $gutter;
+		width:calc(100% - #{$gutter});
+	}
+	button{
+		margin-left:$gutter;
+	}
+	.connect-email{
+		border-top:1px solid darken($cool-white , 10);
+		padding-top:$gutter;
+		h2{
+			padding-bottom:1em;
+		}
+	}
+}	
+
+
+/* -------- Media Queries -------- */
+
+@media (min-width: $sm-point){
+			
+	.grid.xs-full{
+		display:flex;
+	}
+	.xs-visible{ 
+	//hidden sm-up
+		display:none;
+	}
+	.xs-hidden{
+		//show sm-up
+		display: block;
+	}
+	.intro{
+		padding-left:(2 * $gutter);
+		padding-right: $gutter;
+	}
+
+}	
+
+@media (min-width: $md-point){
+	.grid.sm-full{
+		display:flex;
+	}
+	//hidden md-up
+	.sm-visible{
+		display:none;
+	}
+	.sm-hidden{
+		//show md-up
+		display:block;
+	}
+	.intro h2{
+		font-size:1.25*$font-up;
+	}
+	.skills .key{
+		margin-left:2*$gutter;
+		margin-right:2*$gutter;
+	}	
+}
