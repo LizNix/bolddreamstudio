@@ -31,7 +31,7 @@ h1{
 
 }
 h2{
-	font-weight:700;
+//	font-weight:700;
 	font-size:$font-up;
 }
 
@@ -58,6 +58,9 @@ a{
 	&:hover{
 		color:$accent3;
 	}
+}
+img, iframe, embed{
+	max-width:100%;
 }
 section{
 	margin-bottom:2 * $gutter;
@@ -153,7 +156,16 @@ header h1{
 	margin-top:$gutter-sm;
 }
 
+section:not(.intro) h1{
+	border-bottom:1px solid $primary;
+	box-shadow: 0px 2px 0px $accent2, 0px 3px 0px $accent1;
+}
 /* intro */
+.intro-wrapper{
+	background: url(images/stars-small.jpg) top;
+	background-size: cover;
+	padding:$gutter;
+}
 .intro{
 	padding:(1.5 * $gutter) (.8 * $gutter) (3 * $gutter);
 	color:$primary;
@@ -162,7 +174,10 @@ header h1{
 	border-bottom:2px solid $accent2;
 	border-radius:$gutter 0;
 	border-bottom-right-radius: 16*$gutter 8*$gutter;
-	background: desaturate(lighten($accent1, 45),20);
+	background: transparentize(desaturate(lighten($accent1, 45),20),.2);
+	h2{
+		font-weight: 700;
+	}
 	p{
 		font-size:1.25rem;
 		padding-right:$gutter;
@@ -171,25 +186,32 @@ header h1{
 		font-size: $font-up;
 	}
 }
-
+/*services */
+.services{
+	ul{
+		margin-top:$gutter;
+	}
+}
 /* Skills */
 .skills{
-		border-top:4px solid $accent3;
-		box-shadow:0px -1px 0px $accent2;
 	.key{
-		margin: $gutter-sm;
-		padding:$gutter $gutter-sm;
-		background:#fff;
+		margin:$gutter $gutter-sm;
+		padding-bottom:$gutter;
+		//background:#fff;
+		//border-top-left-radius:$gutter-sm;
 		border-bottom-right-radius: 6*$gutter 3*$gutter;
-		box-shadow: -3px 3px 2px desaturate(lighten($accent1, 43),20);
+		border-bottom:1px solid $accent2;
+		//border-left:2px solid ($warm-black + $secondary);
 
 		h2{
 			font-size:1rem;
+			margin-top: 0;
 			padding-top:0;
-			padding:$gutter-sm;
 			font-weight: normal;
 		}
 		p, h2{
+			line-height: 1;
+			margin-bottom: $gutter-sm;
 			padding-left:$gutter;
 			padding-right:$gutter;
 		}
@@ -205,7 +227,26 @@ header h1{
 .novice{
 	color: $accent2;
 }
-
+/*works*/
+.works-project{
+	.works-project-img-link{
+		display: block;
+		margin:0;
+		max-width:90%;		
+		img{
+			border:1px solid darken($cool-white, 10);
+			background:#fff;
+			padding:$gutter-sm;
+		}
+	}
+	.works-project-link{
+		display: block;
+		margin-bottom: $gutter;
+	}
+	.works-project-description{
+		margin-bottom: 1.5* $gutter;
+	}
+}
 /*connect*/
 .connect{
 	.connect-social{
@@ -273,11 +314,24 @@ header h1{
 		//show md-up
 		display:block;
 	}
+	.intro-wrapper{
+		background: url(images/stars-large.jpg) bottom fixed;
+		background-size: cover;
+		padding:$gutter $gutter-sm;
+	}
 	.intro h2{
 		font-size:1.25*$font-up;
 	}
-	.skills .key{
-		margin-left:2*$gutter;
-		margin-right:2*$gutter;
-	}	
+	.services .key{
+		margin-left:$gutter;
+		margin-right:$gutter;
+	}
+}
+@media (min-width: $lg-point){
+	.grid.md-full{
+		display:flex;
+	}
+	.intro-wrapper{
+		padding:$gutter 0;
+	}
 }

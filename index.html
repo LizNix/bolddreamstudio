@@ -16,13 +16,14 @@
 				<h1>Web Design and Development</h1>
 			</div>
 		</header>
-		<main class="container">
-			<section class="intro">
+		<div class="intro-wrapper">
+			<section class="intro container">
 				<h2>Hello, my name is Liz. <br class="sm-visible" />I build &amp; maintain websites.</h2>
 				<p>My bold dream is to make a living doing what I love the way I love to do it &mdash; building websites that are helpful, effective, fast, accessible and, above all, delightful.</p>
 				<p>What's your bold dream? Can I help you make it a reality?</p>
 				<a href="#connect" class="btn">Connect with me</a>
-			</section>
+			</section>		</div>
+		<main class="container">
 			<section class="services">
 				<h1>Services</h1>
 				<ul>
@@ -37,8 +38,8 @@
 			<section class="skills">
 				<h1>Skills</h1>
 				<div class="key">
-					<h2>Competency Key:</h2>
 					<div class="grid xs-full" role="group">
+						<h2 class="col">Competency Key:</h2>
 						<p role="listitem" class="advanced col" id="	Competency-Level-Advanced">Advanced</p>
 						<p role="listitem" class="intermediate col" id="Competency-Level-Intermediate">Intermediate</p>
 						<p role="listitem" class="novice col" id="Competency-Level-Novice">Novice</p>
@@ -85,28 +86,38 @@
 				<h1>Featured Work</h1>
 				<div class="works-project">
 					<h2 class="works-project-title">Bootscores WordPress Starter Theme</h2>
+					<a class="works-project-img-link" href="http://bootscores.liznix.com"><img src="images/bootscores.png" alt="Bootscores Homepage"></a>
 					<a class="works-project-link" href="http://bootscores.liznix.com">bootscores.liznix.com</a>
-					<p class="works-project-description">As a web developer managing a team of other web developers I recognized a need for a WordPress starter theme integrating bootstrap that still lets a coder code. The main advantages of Bootscores are:</p>
-					<ol>
-						<li>It's built on underscores so sane defaults are set for standard WordPress features and nothing to get in the way of development.</li>
-						<li>It loads the bootstrap framework from the bootstrap CDN. So you have access to all bootstrap’s CSS and JavaScript components without having to serve them on your hosting environment.</li>
-						<li> It integrates Justin Weaver's Flexnav so multiple level drop downs are easy to add and hover drop down on desktop works out of the box.</li>
-					</ol>
+					<div class="works-project-description">
+						<p>As a web developer managing a team of other web developers I recognized a need for a WordPress starter theme integrating bootstrap that still lets a coder code. The main advantages of Bootscores are:</p>
+						<ol>
+							<li>It's built on underscores so sane defaults are set for standard WordPress features and nothing to get in the way of development.</li>
+							<li>It loads the bootstrap framework from the bootstrap CDN. So you have access to all bootstrap’s CSS and JavaScript components without having to serve them on your hosting environment.</li>
+							<li> It integrates Justin Weaver's Flexnav so multiple level drop downs are easy to add and hover drop down on desktop works out of the box.</li>
+						</ol>
+					</div>	
 				</div>
 				<div class="works-project">
 					<h2 class="works-project-title">Blair Kennels</h2>
+					<a class="works-project-img-link" href="http://www.blairkennels.com"><img src="images/blair-kennels.png" alt="Blair Kennels Homepage"></a>
 					<a class="works-project-link" href="http://www.blairkennels.com">www.blairkennels.com</a>
-					<p class="works-project-description">My client needed a quick and cost effective site for her dog breeding and showing services, so we got her up and running in less than a week on this WordPress site with a customized child theme. One of the main goals was to give her maximum control for updates and it was almost two years between launch and her need to contact me for maintenance because she was able to keep the site ruining smoothly with regular updates on her own.</p>
+					<div class="works-project-description">
+						<p>My client needed a quick and cost effective site for her dog breeding and showing services, so we got her up and running in less than a week on this WordPress site with a customized child theme. One of the main goals was to give her maximum control for updates and it was almost two years between launch and her need to contact me for maintenance because she was able to keep the site ruining smoothly with regular updates on her own.</p>
+					</div>		
 				</div>
 				<div class="works-project">
 					<h2 class="works-project-title">My personal site</h2>
+					<a class="works-project-img-link" href="http://liznix.com"><img src="images/liz-nix-com.png" alt="LizNix.com Homepage"></a>
 					<a class="works-project-link" href="http://liznix.com">liznix.com</a>
-					<p class="works-project-description">In a previous incarnation, liznix.com housed a site detailing my web services but when I was in a full time agency position and raising a family I routinely had to turn away leads from the site for lack of time. I decided that I wanted my vanity URL to house more personal content, so in early 2015 I started from scratch to give myself a blog that would include not just my experiences in web design but my other passions as well: writing, art, and musings on motherhood and life in general.</p>
-				</div>
-				<div>
-					<h2 class="works-project-title">This Site Right Here</h2>
+					<div class="works-project-description">
+						<p>In a previous incarnation, liznix.com housed a site detailing my web services but when I was in a full time agency position and raising a family I routinely had to turn away leads from the site for lack of time. I decided that I wanted my vanity URL to house more personal content, so in early 2015 I started from scratch to give myself a blog that would include not just my experiences in web design but my other passions as well: writing, art, and musings on motherhood and life in general.</p>
+					</div>
+					<h2 class="works-project-title grid sm-full">This Site Right Here</h2>
+					<a class="works-project-img-link" href="http://www.bolddreamstudio.com"><img src="images/bold-dream-studio.png" alt="Bold Dream Studio Homepage"></a>
 					<a class="works-project-link" href="http://www.bolddreamstudio.com">www.bolddreamstudio.com</a>
-					<p class="works-project-description">Now that I’m working independently once again I need a new site to showcase my abilities. It brings together all of the best practices I’ve learned along the way as well as some principles I’ve been waiting for an opportunity to implement and experiment with. It’s a static site starting with content that is then is semantically marked up and given a progressively enhanced design in the browser, with css rules declared in order from least to greatest specificity, all on a self-managed server. Feedback is welcome and appreciated.</p>
+					<div class="works-project-description">
+						<p>If you've read this far then the behind the scenes on this very project merits some explication. Now that I’m working independently once again I needed a new site to showcase my abilities. It brings together all of the best practices I’ve learned along the way as well as some principles I’ve been waiting for an opportunity to implement and experiment with. It’s a static site starting with content that is then is semantically marked up and given a progressively enhanced design in the browser, with css rules declared in order from least to greatest specificity, all on a self-managed server. Feedback is welcome and appreciated.</p>
+					</div>
 				</div>			
 				<p>Additional examples available upon request.</p>			
 			</section>
@@ -118,7 +129,7 @@
 			</section>
 			<section class="learning-strategy">
 				<h1>Professional Development Strategy</h1>
-				<p>This industry moves fast and no matter where you are there is always more to learn. New and better web technologies are always emerging, and they are used most effectively by those who put the work into developing core strength, so keeping current while constantly deepening foundational knowledge is a must. The following is my personal road map to get myself to the next level.</p>
+				<p>This industry moves fast and no matter where you are on the path there is always more to learn. New and better web technologies are always emerging, and they are used most effectively by those who put the work into developing core strength, so I prioritize keeping current while constantly deepening foundational knowledge. The following is my personal road map to get myself to the next level.</p>
 				<h2>Currently Learning</h2>
 				<p><strong>JavaScript</strong> - bringing javascript competency up to advanced level through online courses and hands on experience  in Javascript, followed by the frameworks AngularJS and ReactJS.</p>
 				<p><strong>PHP</strong> - bringing PHP competency to advanced level with online courses and continued hands-on experience.</p>

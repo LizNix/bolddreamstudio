@@ -105,7 +105,6 @@ h1 {
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\0000333}}
 h2 {
-  font-weight: 700;
   font-size: 1.618rem;
 }
 
@@ -146,17 +145,22 @@ a:hover {
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\0000362}}
+img, iframe, embed {
+  max-width: 100%;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\0000365}}
 section {
   margin-bottom: 3.236em;
   padding: 0 1.618em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\0000370}}
 header {
   padding: 1.618em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\0000371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\0000374}}
 label {
   display: block;
   font-size: .9em;
@@ -164,13 +168,13 @@ label {
   font-weight: bold;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\0000380}}
 input, textarea {
   margin-top: 3px;
   padding: 0.61805em 0.809em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\0000384}}
 footer {
   background: #292222;
   color: #f9fafc;
@@ -178,13 +182,13 @@ footer {
   font-size: .9em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\0000392}}
 .container {
   max-width: 63em;
   margin: 0 auto;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\0000397}}
 .btn, button {
   display: inline-block;
   min-width: 4.854em;
@@ -196,7 +200,7 @@ footer {
   border-radius: 0.61805em;
   border: 1px solid #0011a4;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003107}}
 .btn:hover, button:hover {
   background: #f9fafc;
   color: #0011a4;
@@ -204,64 +208,77 @@ footer {
 
 /* Utilities */
 /*Mobile First Flex-Gird*/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003120}}
 .grid {
   display: flex;
   align-items: center;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003124}}
 .grid.xs-full, .grid.sm-full, .grid.md-full {
   display: block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003124}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003127}}
 .col {
   flex: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003127}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003130}}
 .col-1-3 {
   width: 32%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003133}}
 .col-3-4 {
   width: 65%;
 }
 
 /*other utility classes*/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003134}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003137}}
 .xs-hidden {
   display: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003137}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003140}}
 .sm-hidden {
   display: none;
 }
 
 /* Modules and More  */
 /* banner */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003143}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003146}}
 h2.branding {
   color: #06025b;
   margin-bottom: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003146}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003149}}
 h2.branding span {
   font-weight: 500;
   color: #0011a4;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003151}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003154}}
 header h1 {
   font-style: italic;
   margin-top: 0.61805em;
 }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003159}}
+section:not(.intro) h1 {
+  border-bottom: 1px solid #06025b;
+  box-shadow: 0px 2px 0px #ab77af, 0px 3px 0px #0064fa;
+}
+
 /* intro */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003157}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003164}}
+.intro-wrapper {
+  background: url(images/stars-small.jpg) top;
+  background-size: cover;
+  padding: 1.618em;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003169}}
 .intro {
   padding: 2.427em 1.2944em 4.854em;
   color: #06025b;
@@ -269,146 +286,193 @@ header h1 {
   border-bottom: 2px solid #ab77af;
   border-radius: 1.618em 0;
   border-bottom-right-radius: 25.888em 12.944em;
-  background: #e4edfc;
+  background: rgba(228, 237, 252, 0.8);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003166}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003178}}
+.intro h2 {
+  font-weight: 700;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003181}}
 .intro p {
   font-size: 1.25rem;
   padding-right: 1.618em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003170}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003185}}
 .intro a {
   font-size: 1.618rem;
 }
 
+/*services */
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003191}}
+.services ul {
+  margin-top: 1.618em;
+}
+
 /* Skills */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003176}}
-.skills {
-  border-top: 4px solid #e2a369;
-  box-shadow: 0px -1px 0px #ab77af;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003179}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003197}}
 .skills .key {
-  margin: 0.61805em;
-  padding: 1.618em 0.61805em;
-  background: #fff;
+  margin: 1.618em 0.61805em;
+  padding-bottom: 1.618em;
   border-bottom-right-radius: 9.708em 4.854em;
-  box-shadow: -3px 3px 2px #dae7fb;
+  border-bottom: 1px solid #ab77af;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003186}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003206}}
 .skills .key h2 {
   font-size: 1rem;
+  margin-top: 0;
   padding-top: 0;
-  padding: 0.61805em;
   font-weight: normal;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003192}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003212}}
 .skills .key p, .skills .key h2 {
+  line-height: 1;
+  margin-bottom: 0.61805em;
   padding-left: 1.618em;
   padding-right: 1.618em;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003198}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003220}}
 .advanced {
   font-weight: 600;
   color: #06025b;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003202}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003224}}
 .intermediate {
   color: #0011a4;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003205}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003227}}
 .novice {
   color: #ab77af;
 }
 
+/*works*/
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003232}}
+.works-project .works-project-img-link {
+  display: block;
+  margin: 0;
+  max-width: 90%;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003236}}
+.works-project .works-project-img-link img {
+  border: 1px solid #d7deeb;
+  background: #fff;
+  padding: 0.61805em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003242}}
+.works-project .works-project-link {
+  display: block;
+  margin-bottom: 1.618em;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003246}}
+.works-project .works-project-description {
+  margin-bottom: 2.427em;
+}
+
 /*connect*/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003211}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003252}}
 .connect .connect-social {
   padding: 1.618em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003213}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003254}}
 .connect .connect-social:after {
   content: '';
   display: block;
   clear: both;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003218}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003259}}
 .connect .connect-social li {
   float: left;
   margin-right: f;
   list-style: none;
   padding-left: 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003225}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003266}}
 .connect input, .connect textarea {
   margin-left: 1.618em;
   width: calc(100% - 1.618em);
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003229}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003270}}
 .connect button {
   margin-left: 1.618em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003232}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003273}}
 .connect .connect-email {
   border-top: 1px solid #d7deeb;
   padding-top: 1.618em;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003235}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003276}}
 .connect .connect-email h2 {
   padding-bottom: 1em;
 }
 
 /* -------- Media Queries -------- */
 @media (min-width: 420px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003246}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003287}}
   .grid.xs-full {
     display: flex;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003249}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003290}}
   .xs-visible {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003253}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003294}}
   .xs-hidden {
     display: block;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003257}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003298}}
   .intro {
     padding-left: 3.236em;
     padding-right: 1.618em;
   }
 }
 @media (min-width: 769px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003265}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003306}}
   .grid.sm-full {
     display: flex;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003269}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003310}}
   .sm-visible {
     display: none;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003272}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003313}}
   .sm-hidden {
     display: block;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003276}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003317}}
+  .intro-wrapper {
+    background: url(images/stars-large.jpg) bottom fixed;
+    background-size: cover;
+    padding: 1.618em 0.61805em;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003322}}
   .intro h2 {
     font-size: 2.0225rem;
   }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003279}}
-  .skills .key {
-    margin-left: 3.236em;
-    margin-right: 3.236em;
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003325}}
+  .services .key {
+    margin-left: 1.618em;
+    margin-right: 1.618em;
+  }
+}
+@media (min-width: 63em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003331}}
+  .grid.md-full {
+    display: flex;
+  }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/Sites\/bolddreamstudio\/scss\/style\.scss}line{font-family:\00003334}}
+  .intro-wrapper {
+    padding: 1.618em 0;
   }
 }
 

@@ -5,7 +5,7 @@ $container-width: 63em;
 /* Break Points */
 $sm-point: 420px; // lowest vw point of sm classes
 $md-point: 769px; // lowest vw for md classes
-
+$lg-point: $container-width; 
 /* Modular Scale */
 $ratio: 1.618;
 $ratio-down: 1/$ratio;
