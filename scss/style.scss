@@ -10,17 +10,19 @@
 /* --------  customization  -------- */
 
 /* Globals */
-
+html{
+	font-size:16px;
+}
 body{
 	font-family: $font-fallback-body;
-	font-size:16px;
 	line-height:$ratio;
 	background:$cool-white;
 	color: $warm-black;
+	letter-spacing: .02em;
 	.wf-active &{
 		font-family:$font-stack-body;
-	}
-	.wf-loading &{
+		font-size:1em;
+		letter-spacing: normal;
 	}
 }
 
@@ -158,9 +160,9 @@ h2.branding{
 	font-family: $font-stack-body;	
 	color:$primary;
 	margin-bottom:0;
-	font-weight: 900;
+	font-weight: 700;
 	span{
-		font-weight:500;
+		font-weight:400;
 		color:$secondary;
 	}
 }
