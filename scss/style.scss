@@ -146,6 +146,7 @@ footer{
 h2.branding{
 	color:$primary;
 	margin-bottom:0;
+	font-weight: 900;
 	span{
 		font-weight:500;
 		color:$secondary;
@@ -174,7 +175,7 @@ section:not(.intro) h1{
 	border-bottom:2px solid $accent2;
 	border-radius:$gutter 0;
 	border-bottom-right-radius: 16*$gutter 8*$gutter;
-	background: transparentize(desaturate(lighten($accent1, 45),20),.2);
+	background: transparentize(desaturate(lighten($accent1, 45),20),.125);
 	h2{
 		font-weight: 700;
 	}
