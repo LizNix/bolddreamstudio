@@ -12,18 +12,28 @@
 /* Globals */
 
 body{
-	font-family: $font-stack-body;
+	font-family: $font-fallback-body;
 	font-size:16px;
 	line-height:$ratio;
 	background:$cool-white;
 	color: $warm-black;
+	.wf-active &{
+		font-family:$font-stack-body;
+	}
+	.wf-loading &{
+	}
 }
+
 h1, h2, h3{
 	margin-top:1em;
 	margin-bottom:.25em;
 }
 h1,  h3{
-	font-family: $font-stack-heading;
+	font-family: $font-fallback-heading;
+	.wf-active & {
+		font-family:$font-stack-heading;
+		font-size:2em;
+	}
 }
 
 h1{
@@ -144,6 +154,8 @@ footer{
 
 /* banner */
 h2.branding{
+	//prefer foit to fout on this
+	font-family: $font-stack-body;	
 	color:$primary;
 	margin-bottom:0;
 	font-weight: 900;
@@ -153,7 +165,8 @@ h2.branding{
 	}
 }
 header h1{
-	font-style: italic;
+	//prefer foit to fout on this
+	font-family: $font-stack-heading;
 	margin-top:$gutter-sm;
 }
 

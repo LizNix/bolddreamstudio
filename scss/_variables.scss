@@ -19,8 +19,13 @@ $gutter-sm: $ratio-down *1em;
 
 
 /*fonts*/
+
 $font-stack-body :  'Open Sans', sans-serif;
 $font-stack-heading: 'Berkshire Swash', 'Georgia', serif;
+
+$font-fallback-body: sans-serif;
+$font-fallback-heading: 'Georgia', serif;
+
 
 /*colors*/
 
