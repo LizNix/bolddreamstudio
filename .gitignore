@@ -1,6 +1,6 @@
-.sassbuilder-config.json
+scss/.sassbuilder-config.json
 bluedreamstudio.sublime-project
 bluedreamstudio.sublime-workspace
 sftp-config.json
-style.css.map
+scss/style.css.map
 .sass-cache/

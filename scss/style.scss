@@ -14,43 +14,29 @@ html{
 	font-size:16px;
 }
 body{
-	font-family: $font-fallback-body;
+	font-family: $font-stack-body;
 	line-height:$ratio;
 	background:$cool-white;
 	color: $warm-black;
-	letter-spacing: .02em;
-	.wf-active &{
-		font-family:$font-stack-body;
-		font-size:1em;
-		letter-spacing: normal;
-	}
 }
-
 h1, h2, h3{
 	margin-top:1em;
 	margin-bottom:.25em;
 }
 h1,  h3{
-	font-family: $font-fallback-heading;
-	.wf-active & {
-		font-family:$font-stack-heading;
-		font-size:2em;
-	}
+	font-family: $font-stack-heading;
+	font-size:2em;
 }
-
 h1{
 	font-size:2rem;
-
 }
 h2{
 //	font-weight:700;
 	font-size:$font-up;
 }
-
 h3{
 	font-size: 1.25rem;
 }
-
 p{
 	margin-bottom:1em;
 }
@@ -100,7 +86,6 @@ footer{
 	font-size: .9em;
 }
 
-
 .container{
 	max-width:$container-width;
 	margin:0 auto;
@@ -117,10 +102,8 @@ footer{
 	border-radius:$gutter-sm;
 	border: 1px solid $secondary;
 	&:hover{
-
 	background:$cool-white;
 	color:$secondary;
-		
 	}
 }
 
