@@ -114,7 +114,8 @@ footer{
 
 .grid{
 	display:flex;
-	align-items:center;
+	align-items:flex-start;
+	justify-items:space-around;
 }
 .grid.xs-full, .grid.sm-full ,.grid.md-full{
 	display:block;
@@ -139,20 +140,20 @@ footer{
 
 /* banner */
 h2.branding{
-	//prefer foit to fout on this
 	font-family: $font-stack-body;	
 	color:$primary;
-	margin-bottom:0;
+	margin:0;
 	font-weight: 700;
+	font-size:1.5 * $font-up;
 	span{
 		font-weight:400;
 		color:$secondary;
 	}
 }
 header h1{
-	//prefer foit to fout on this
 	font-family: $font-stack-heading;
-	margin-top:$gutter-sm;
+	margin-top:0;
+	font-size: $font-up;
 }
 
 section:not(.intro) h1{
@@ -217,11 +218,10 @@ section:not(.intro) h1{
 	}
 }
 .advanced{
-	font-weight:600;
 	color:$primary;
 }
 .intermediate{
-	color:$secondary;
+	color:desaturate($accent1,50);
 }
 .novice{
 	color: $accent2;
@@ -257,7 +257,6 @@ section:not(.intro) h1{
 		}
 		li{
 			float:left;
-			margin-right:f;
 			list-style: none;
 			padding-left: 0;			
 		}
