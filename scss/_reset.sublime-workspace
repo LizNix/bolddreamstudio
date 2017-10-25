@@ -1,0 +1,584 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"w",
+				"wordpress"
+			],
+			[
+				"servi",
+				"serving-size"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"jquer",
+				"jquery-masonry"
+			],
+			[
+				"archive",
+				"archive-wrapper"
+			],
+			[
+				"rPr",
+				"rProduct_url"
+			],
+			[
+				"jump",
+				"jump-list"
+			],
+			[
+				"avail",
+				"humboldt_available_in"
+			],
+			[
+				"wp_enqueue",
+				"wp_enqueue_style"
+			],
+			[
+				"get_temp",
+				"get_template_part"
+			],
+			[
+				"rela",
+				"related_post_id_2"
+			],
+			[
+				"relate",
+				"related_post_id_1"
+			],
+			[
+				"related_",
+				"related_recipe_1"
+			],
+			[
+				"related-pro",
+				"related-product-3"
+			],
+			[
+				"humboldt-",
+				"humboldt-product-related-recipe"
+			],
+			[
+				"post_t",
+				"post_type_obj"
+			],
+			[
+				"humboldt",
+				"humboldt_creamery"
+			],
+			[
+				"conta",
+				"container"
+			],
+			[
+				"get_template",
+				"get_template_directory_uri"
+			],
+			[
+				"wp_en",
+				"wp_enqueue_style"
+			],
+			[
+				"get_templ",
+				"get_template_directory_uri"
+			],
+			[
+				"af",
+				"after_title"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 381.0,
+		"last_filter": "Package Control: i",
+		"selected_items":
+		[
+			[
+				"Package Control: i",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: List Packages"
+			],
+			[
+				"sftp",
+				"SFTP: Setup Server…"
+			],
+			[
+				"Package Control: Install Package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 162.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Sites/boilerplate/_structure.scss",
+		"/C/Sites/boilerplate/_reset.scss",
+		"/C/Sites/boilerplate/.sassbuilder-config.json",
+		"/C/Sites/boilerplate/style.css",
+		"/C/Sites/srss/wp-content/themes/srss2015/library/js/products.js",
+		"/C/Sites/srss/wp-content/themes/srss2015/page-products.php",
+		"/C/Sites/srss/sftp-config.json",
+		"/C/Sites/srss/wp-content/themes/srss2015/functions.php",
+		"/C/Sites/srss/srss.sublime-project",
+		"/C/Sites/gandona/www/wordpress/sftp-config.json",
+		"/C/Sites/gandona/www/wordpress/wp-content/themes/gandona/template-parts/style-hero-bg.php",
+		"/C/Sites/gandona/www/wordpress/wp-content/themes/gandona/page-full-width.php",
+		"/C/Sites/gandona/www/wordpress/wp-content/themes/gandona/footer.php",
+		"/C/Sites/gandona/www/wordpress/wp-content/themes/gandona/header.php",
+		"/C/Sites/gandona/www/wordpress/wp-content/themes/gandona/template-parts/contact-expander.php",
+		"/C/Sites/gandona/www/wordpress/wp-content/themes/gandona/library/scss/gandona.scss",
+		"/C/Sites/gandona/www/wordpress/wp-config.php",
+		"/C/Sites/gandona/www/wordpress/wp-config2.php",
+		"/C/Sites/gandona/www/wordpress/wp-dev.sublime-project",
+		"/C/Users/Liz/Downloads/wp-config.php",
+		"/C/wamp64/www/wordpress/wp-config.php",
+		"/C/wamp64/www/wordpress/wp-content/themes/gandona/template-parts/content-page.php",
+		"/C/wamp64/www/wordpress/wp-content/themes/gandona/page.php",
+		"/C/wamp64/www/wordpress/wp-content/themes/gandona/page-right-sidebar.php",
+		"/C/wamp64/www/wordpress/wp-content/themes/gandona/functions.php",
+		"/C/wamp64/www/wordpress/wp-content/themes/gandona/header.php",
+		"/C/Users/Liz/AppData/Local/Temp/fz3temp-2/wp-config.php",
+		"/C/wamp64/www/wordpress/wp-content/themes/Gandona/library/scss/gandona.scss",
+		"/C/wamp64/www/wordpress/wp-content/themes/Gandona/library/css/gandona.css",
+		"/C/wamp64/www/wordpress/wp-content/themes/Gandona/library/scss/.sassbuilder-config.json",
+		"/C/wamp64/www/wordpress/wp-content/themes/gandona/library/.sassbuilder-config.json",
+		"/C/wamp64/www/wordpress/wp-content/themes/Gandona/functions.php",
+		"/C/wamp64/www/wordpress/wp-content/themes/Gandona/style.css",
+		"/C/wamp64/www/wordpress/wp-config-sample.php",
+		"/C/Sites/winecountrytable/www/sftp-config.json",
+		"/C/Sites/winecountrytable/www/wp-content/plugins/wine-country-table-custom/wine-country-table-custom.php",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/page-our-story.php",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/library/scss/single-post-page.scss",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/library/css/single-post-page.css",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/template-parts/product-banner.php",
+		"/C/Sites/humboldtcreamery/www/wp-content/plugins/humbolt-creamery-custom/humboldt-creamery-custom.php",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/single-products.php",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/library/css/product.css",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/library/css/archive.css",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/library/scss/archive.scss",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/product-archive.php",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/library/scss/product.scss",
+		"/C/Users/Liz/Desktop/humboldt.css",
+		"/C/Users/Liz/AppData/Roaming/Sublime Text 3/Packages/User/SideBarEnhancements/Open With/Side Bar.sublime-menu",
+		"/C/users/liz/appdata/local/temp/sublime-sftp-browse-1486296106/mapped/var/sites/remotesatellite.com/www/wp-content/themes/wpbs-child-RemoteSatellite/archive-documentation.php",
+		"/C/users/liz/appdata/local/temp/sublime-sftp-browse-1486388197/mapped/var/sites/huffcon.com/wp-content/themes/huffcon/template-parts/project-filters.php",
+		"/C/users/liz/appdata/local/temp/sublime-sftp-browse-1486390152/mapped/var/sites/huffcon.com/wp-content/themes/huffcon/page-projects-experience.php",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/template-parts/story-video-header.php",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/header.php",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/footer.php",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/library/images/milk-bottle-icon.svg",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/template-parts/featured-product.php",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/library/images/kosher.svg",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/single-recipes.php",
+		"/C/users/liz/appdata/local/temp/sublime-sftp-browse-1485467829/mapped/var/sites/huffcon.com/wp-content/themes/huffcon/archive-huff_projects.php",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/library/css/humboldt.css",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/library/scss/humboldt.scss",
+		"/C/Users/Liz/Desktop/wp-config.php",
+		"/C/clients/work-order-1-Gonzolo.txt",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/library/css/front-page.css",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/library/css/product-archive.css",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/library/css/where-to-buy.css",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/library/scss/_variables.scss",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/library/scss/front-page.scss",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/library/scss/product-archive.scss",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/template-parts/expandy-bit.php",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/library/scss/.sassbuilder-config.json",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/template-parts/social-feed.php",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/template-parts/content.php",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/library/images/humboldt-arrow-white.svg",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/functions.php",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/recipe-archive.php",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/template-parts/content-recipe.php",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/library/js/masonry-init.js",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/library/js/masonry.js",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/library/js/project.js",
+		"/C/Users/Liz/Desktop/masonry.a.js",
+		"/C/Users/Liz/Desktop/masonry.b.js",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/archive.php",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/font-preview.php",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/page-where-to-buy.php",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/template-parts/homepage-video-header.php",
+		"/C/Users/Liz/Desktop/to-do.html",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/library/js/smooth-scroll.js",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/front-page.php",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/template-parts/social-fee",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/template-parts/featured-product",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/template-parts/content-page.php",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/template-parts/homepage-video-part.php",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/template-parts/our-story-video.php",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/inc/template-tags.php",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/library/scss/product-archive.css",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/page.php",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/library/scss/product.css",
+		"/C/Sites/humboldtcreamery/resources/Humboldt County Theme Plan",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/template-parts/content-single-recipe.php",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/library/css/page-std.css",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/library/scss/page-std.scss",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/library/images/cloud-2.png",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/library/js/masonry.pkgd.min.js",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/library/images/humboldt-creamery-logo.svg",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/template-parts/newsletter-signup.php",
+		"/C/Users/Liz/Downloads/wordpress-4.6/wordpress/wp-includes/class-wp-role.php",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/template-parts/clouds.php",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/template-parts/clourds.php",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/p",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/library/css/flexnav.css",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/style.css",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/inc/extras.php",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/inc/custom-header.php",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/humboldt-creamery/page-right-sidebar.php",
+		"/C/Sites/humboldtcreamery/www/wp-content/plugins/humbolt-creamery-custom/meta-box-image.js",
+		"/C/Users/Liz/AppData/Roaming/Sublime Text 3/Packages/User/SFTP.errors.log",
+		"/C/Sites/humboldtcreamery/www/wp-content/plugins/humbolt-creamery-custom/meta-box.css",
+		"/C/users/liz/appdata/local/temp/sublime-sftp-browse-1482803201/mapped/var/sites/humboldtcreamery.com/wp-config.php",
+		"/C/Sites/humboldtcreamery/www/wp-config.php",
+		"/C/users/liz/appdata/local/temp/sublime-sftp-browse-1482543976/mapped/var/sites/huffcon.com/wp-content/themes/huffcon/inc/custom-post-type.php",
+		"/C/Sites/humboldtcreamery/www/wp-content/plugins/login-lockdown/loginlockdown.php",
+		"/C/Sites/humboldtcreamery/.gitignore",
+		"/C/Sites/humboldtcreamery/www/wp-content/plugins/humbolt-creamery-recipes/humboldt-recipes.php",
+		"/C/Sites/humboldtcreamery/www/sftp-config.json",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/bootscores/README.md",
+		"/C/Sites/humboldtcreamery/www/wp-content/themes/bootscores/library/scss/humboldt.scss"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 117.0,
+		"where_history":
+		[
+			"<current file>",
+			"<current file>,C:\\Sites\\villamontagna\\www\\wp-content\\themes\\villamontanga",
+			"<current file>",
+			"C:\\Sites\\JordanWineBlog\\www",
+			"<current file>",
+			"C:\\Sites\\c-d-pet-products\\variant-shipping",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"<br",
+			"\n",
+			" \n",
+			"<a href=",
+			"button",
+			"products.js",
+			"para",
+			";\n",
+			"g-fo",
+			"g",
+			"\\",
+			"_creamery",
+			"Humboldt",
+			"humboldt",
+			"product",
+			"Product",
+			"Recipe",
+			"recipe",
+			"recipes",
+			"Recipes",
+			"Recipe",
+			"our",
+			"ico-",
+			"our-story",
+			"our-s",
+			"our story",
+			"textarea",
+			"organic_is",
+			"emblems",
+			"%",
+			"Sugar",
+			"><td>",
+			"sugar",
+			"calories",
+			"td",
+			"Calories",
+			"vitamin",
+			":last-child",
+			"br /",
+			"th",
+			"calories",
+			"background",
+			"foreach",
+			"size",
+			"<td></td>",
+			"nutrition",
+			"kosher",
+			"organic is non",
+			"non-gmo",
+			"debug",
+			"available",
+			".site-content",
+			".h1",
+			"site-content",
+			"}\n",
+			"nutrition",
+			"branding",
+			"brand",
+			"branding",
+			"brand",
+			"/*",
+			"expandy",
+			"epandy",
+			"epand",
+			"nut",
+			"img",
+			"p",
+			"span",
+			"social-feed",
+			"social-feed p",
+			"h3",
+			"cloud",
+			"story",
+			"social",
+			"instagram",
+			"hero-content-wrap",
+			"data-selector",
+			"data-sel",
+			"hentry",
+			"masonry",
+			"footer",
+			"key",
+			"keyframe",
+			"key",
+			"keyframe",
+			"transition",
+			"!== this.container",
+			"!function(t)",
+			"page-title",
+			"masonry",
+			"thumbnail",
+			"thumnail",
+			"get_post",
+			"related-product",
+			";\n",
+			"expand",
+			"expandy",
+			"expand",
+			"-500",
+			"link",
+			"jump-link",
+			"JUMP",
+			"product-grid",
+			"sidebar",
+			"xc-4",
+			"xc-8",
+			"col-xs-8",
+			"col-xs-4",
+			"tagline",
+			"lobster",
+			"google",
+			"gfont",
+			"social-feed",
+			"btn",
+			".h1",
+			"featured",
+			"jump",
+			"btn",
+			"brand",
+			"logo",
+			"112",
+			"video-wrapper",
+			".location",
+			"btn",
+			"}\n",
+			"thumbnail",
+			"clouds",
+			"single"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"/",
+			"",
+			"wct",
+			"portfolio",
+			"Portfolio",
+			"Gallery",
+			"gallery",
+			"galleries",
+			"Galleries",
+			"Gallery",
+			">\n<td>",
+			"",
+			"xs-4",
+			"xs-8",
+			"col-xc-8 col-sm-10",
+			"col-xc-4 col-sm-2",
+			"transform",
+			"/>",
+			"post_id",
+			"humboldt_creamery",
+			"humboldt",
+			"humboldt_creamery",
+			"products",
+			"thumbnail",
+			"bootscores",
+			"'",
+			"li class=\"advanced\" aria-describedby=\"Competency-Level-Novice\"",
+			"li class=\"advanced\" aria-describedby=\"Competency-Level-Intermediate\"",
+			"li class=\"advanced\" aria-describedby=\"Competency-Level-Advanced\"",
+			"class=\"advanced\" aria-label=\"competency level advanced\"",
+			"\n \tShopify: $",
+			"Shopify: $",
+			"",
+			"\\",
+			"span style=\"font-weight: 400; margin-bottom:1.5em;",
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 38.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "_reset.sublime-project",
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 625.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Sites\\winecountrytable\\winecountrytable.sublime-project"
+			]
+		],
+		"width": 475.0
+	},
+	"select_symbol":
+	{
+		"height": 490.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 670.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 369.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
