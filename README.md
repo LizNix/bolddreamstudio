@@ -1,2 +1,2 @@
 # bolddreamstudio
-A new site featuring my web development services
+A new site featuring my web development portfolio
