@@ -1,2 +1,2 @@
 # bolddreamstudio
-A new site featuring my web development portfolio
+An old site featuring a past web development portfolio
